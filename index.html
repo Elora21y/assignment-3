@@ -90,6 +90,7 @@
                 </div>
             </div>
         </div>
+        <hr class="border-gray-400 visible lg:invisible">
 
         <!-- banner -->
         <div class="md:container mx-auto flex flex-col lg:flex-row mt-8 p-5 md:p-0 md:mt-20 mb-36">
@@ -305,7 +306,7 @@
         </section>
 
         <!-- low price -->
-        <section class="mb-12 lg:mb-32 p-5 md:p-0 md:container mx-auto pb-0 lg:pb-36">
+        <section class=" p-5 md:p-0 md:container mx-auto ">
             <h3 class=" text-2xl  md:text-4xl adlam-display  mb-12 text-[#111111]">Everyday low Price</h3>
             <!-- low-price container -->
             <div class="flex flex-col lg:flex-row gap-6 ">
@@ -345,9 +346,54 @@
             </div>
         </section>
 
-        <section class="p-5 md:p-0 md:container mx-auto"></section>
+        <!-- news section  -->
+        <section class="px-5 md:px-12 lg:px-20 md:container mx-auto bg-bg-color1 rounded-xl relative -bottom-12  md:-bottom-60">
+            <!-- container -->
+            <div class="flex flex-col lg:flex-row justify-center items-center gap-10 lg:gap-[135px] py-5 md:py-10 text-center lg:text-left">
+                <!-- image -->
+                <div>
+                    <img src="c1-assets/cute-pet-mid.png" alt="" class="">
+                </div>
+                <!-- context  -->
+                 <div class="space-y-5">
+                    <h3 class="adlam-display text-[#111111] text-2xl lg:text-4xl">Get Pawsome News!</h3>
+                    <p class="text-[#111111] sora text-sm
+                     md:text-xl lg:pb-6 ">Exclusive training tips, ticks, product deals and more.</p>
+                    <input type="text" placeholder="Enter email...." class="bg-white p-4 w-[400px] md:w-[470px] block sora">
+                    <button class="btn bg-primary-color md:text-xl px-7 text-stone-700 hover:bg-transparent hover:border-primary-color sora  ">Subscribe</button>
+                 </div>
+            </div>
+        </section>
     </main>
-    <footer></footer>
+    <!-- footer -->
+    <footer class="bg-bg-color2">
+        <div class="grid grid-cols-1 lg:grid-cols-3 items-end mx-auto md:container gap-6 lg:gap-40 p-5 md:p-0 pt-36 md:pt-96 pb-14 lg:pb-36">
+            <!-- container 1 -->
+             <div class="sora space-y-2 lg:space-y-6">
+                <img src="c1-assets/logo-footer.png " alt="" class=" inline mr-3">
+                <h4 class=" text-xl lg:text-[26px] text-[#111111] inline">Browse<span class="text-primary-color ">4</span>Pets</h4>
+                <p class="lg:text-xl text-[#111111e3]">Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+             </div>
+
+             <!-- container 2 -->
+              <div class="flex flex-col lg:text-xl lg:space-y-8">
+                <a class="link link-hover">Find a pet</a>
+                <a class="link link-hover">Breeds</a>
+                <a class="link link-hover">Contact us</a>
+              </div>
+
+              <!-- container 3 -->
+               <div class="space-y-2">
+                <p class="sora md:font-medium text-[#111111]">Follow Us</p>
+                <div class="flex gap-6 lg::gap-[30px] lg:text-xl">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+               </div>
+        </div>
+    </footer>
 </body>
 
 </html>
