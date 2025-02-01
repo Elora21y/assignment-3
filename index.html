@@ -73,98 +73,94 @@
                         class="btn bg-primary-color text-xl px-7 text-stone-700 hover:bg-transparent hover:border-primary-color">Register</a>
                 </div>
                 <!-- menu icon -->
-                <div class="dropdown left-[290px] sm:left-[570px] md:left-[690px] absolute">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M4 6h16M4 12h8m-8 6h16" />
-                        </svg>
-                    </div>
-                    <ul tabindex="0"
-                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 mr-10 w-20 p-2 shadow text-xs">
-                        <li><a>Find a pet</a></li>
-                        <li><a>Breeds</a></li>
-                        <li><a>Contact us</a></li>
-                    </ul>
+                <div class="visible lg:invisible absolute right-4 text-xl text-gray-600">
+                    <i class="fa-solid fa-bars"></i>
                 </div>
             </div>
         </div>
-        <hr class="border-gray-400 visible lg:invisible">
+        <hr class="border-gray-500 visible lg:invisible">
 
         <!-- banner -->
         <div class="md:container mx-auto flex flex-col lg:flex-row mt-8 p-5 md:p-0 md:mt-20 mb-36">
             <!-- banner container -->
-            <div class=" space-y-4">
+            <div class=" space-y-5">
                 <h1 class="adlam-display text-4xl md:text-5xl lg:text-[56px]">Pamper Your Pet,
                     <br> Because They Deserve
                     <br> the Bes
                 </h1>
-                <p class="sora md:text-xl leading-8 text-gray-500 md:w-[670px]">Discover a world of treats, toys, and
+                <p class="sora md:text-xl leading-8 text-gray-500 md:w-[670px] ">Discover a world of treats, toys, and
                     essentials
                     handpicked for your furry friends. Shop now and make tails wag with joy!</p>
                 <button
-                    class="btn bg-primary-color text-xl px-7 text-stone-700 hover:bg-transparent hover:border-primary-color sora">Find
-                    a pet
+                    class="btn bg-primary-color text-xl px-5  text-stone-700 hover:bg-transparent hover:border-primary-color sora  relative z-10">
+                    <div class="btn absolute px-20 py-8 -z-10 animate-pulse bg-primary-color  hover:invisible "></div>
+                    Find a pet
                 </button>
-            </div>
-            <!-- banner image -->
-            <img src="c1-assets/cat-big.png" alt=""
-                class="w-11/12 bg-blend-overlay object-cover absolute top-96 sm:top-60 lg:-top-4 md:container mx-auto -z-10">
+         
+        </div>
+        <!-- banner image -->
+        <img src="c1-assets/cat-big.png" alt=""
+            class="w-11/12 bg-blend-overlay object-cover absolute top-96 sm:top-60 lg:-top-4 md:container mx-auto -z-10">
         </div>
     </header>
 
-    <main class="">
+    <main>
         <!-- categories section -->
         <section
-            class="mb-12 lg:mb-32 mt-60 md:mt-72 lg:mt-80 2xl:mt-[450px] p-5 md:p-0 space-y-12 md:container mx-auto">
+            class="mb-12 lg:mb-32 mt-44 sm:mt-52 md:mt-72 lg:mt-[360px] 2xl:mt-[450px] p-5 md:p-0 space-y-12 md:container mx-auto">
 
             <h3 class=" text-2xl  md:text-4xl adlam-display ">Browse By Categories</h3>
             <!-- categories cards -->
             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
                 <!-- card 1 -->
-                <div class="flex flex-col px-12 py-8 gap-6 items-center text-center bg-bg-color2 rounded-xl">
-                    <img src="c1-assets/dog-cartoon.png" alt="" class="p-7 rounded-full bg-white">
+                <div
+                    class="flex flex-col px-12 py-8 gap-6 items-center text-center bg-bg-color2 rounded-xl duration-[0.5s] hover:scale-[1.05] hover:shadow-lg">
+                    <img src="c1-assets/dog-cartoon.png" alt="" class="p-2 sm:p-7 rounded-full bg-white ">
                     <div class="space-y-3">
                         <h5 class="adlam-display text-xl text-black">Dog</h5>
                         <p class="sora text-black">3 items</p>
                     </div>
                 </div>
                 <!-- card 2 -->
-                <div class="flex flex-col px-12 py-8 gap-6 items-center text-center bg-bg-color2 rounded-xl">
-                    <img src="c1-assets/fish-cartoon.png" alt="" class="p-7 rounded-full bg-white">
+                <div
+                    class="flex flex-col px-12 py-8 gap-6 items-center text-center bg-bg-color2 rounded-xl duration-[0.5s] hover:scale-[1.05] hover:shadow-lg">
+                    <img src="c1-assets/fish-cartoon.png" alt="" class="p-2 sm:p-7 rounded-full bg-white ">
                     <div class="space-y-3">
                         <h5 class="adlam-display text-xl text-black">Fish</h5>
                         <p class="sora text-black">3 items</p>
                     </div>
                 </div>
                 <!-- card 3 -->
-                <div class="flex flex-col px-12 py-8 gap-6 items-center text-center bg-bg-color2 rounded-xl">
-                    <img src="c1-assets/cat-cartoon.png" alt="" class="p-7 rounded-full bg-white">
+                <div
+                    class="flex flex-col px-12 py-8 gap-6 items-center text-center bg-bg-color2 rounded-xl duration-[0.5s] hover:scale-[1.05] hover:shadow-lg">
+                    <img src="c1-assets/cat-cartoon.png" alt="" class="p-2 sm:p-7 rounded-full bg-white ">
                     <div class="space-y-3">
                         <h5 class="adlam-display text-xl text-black">Cat</h5>
                         <p class="sora text-black">3 items</p>
                     </div>
                 </div>
                 <!-- card 4 -->
-                <div class="flex flex-col px-12 py-8 gap-6 items-center text-center bg-bg-color2 rounded-xl">
-                    <img src="c1-assets/bird-cartoon.png" alt="" class="p-7 rounded-full bg-white">
+                <div
+                    class="flex flex-col px-12 py-8 gap-6 items-center text-center bg-bg-color2 rounded-xl duration-[0.5s] hover:scale-[1.05] hover:shadow-lg">
+                    <img src="c1-assets/bird-cartoon.png" alt="" class="p-2 sm:p-7 rounded-full bg-white ">
                     <div class="space-y-3">
                         <h5 class="adlam-display text-xl text-black">Birds</h5>
                         <p class="sora text-black">3 items</p>
                     </div>
                 </div>
                 <!-- card 5 -->
-                <div class="flex flex-col px-12 py-8 gap-6 items-center text-center bg-bg-color2 rounded-xl">
-                    <img src="c1-assets/mouse-cartoon.png" alt="" class="p-7 rounded-full bg-white">
+                <div
+                    class="flex flex-col px-12 py-8 gap-6 items-center text-center bg-bg-color2 rounded-xl duration-[0.5s] hover:scale-[1.05] hover:shadow-lg">
+                    <img src="c1-assets/mouse-cartoon.png" alt="" class="p-2 sm:p-7 rounded-full bg-white ">
                     <div class="space-y-3">
                         <h5 class="adlam-display text-xl text-black">Small pet</h5>
                         <p class="sora text-black">3 items</p>
                     </div>
                 </div>
                 <!-- card 6 -->
-                <div class="flex flex-col px-12 py-8 gap-6 items-center text-center bg-bg-color2 rounded-xl">
-                    <img src="c1-assets/rabbit-cartoon.png" alt="" class="p-7 rounded-full bg-white">
+                <div
+                    class="flex flex-col px-12 py-8 gap-6 items-center text-center bg-bg-color2 rounded-xl duration-[0.5s] hover:scale-[1.05] hover:shadow-lg">
+                    <img src="c1-assets/rabbit-cartoon.png" alt="" class="p-2 sm:p-7 rounded-full bg-white ">
                     <div class="space-y-3">
                         <h5 class="adlam-display text-xl text-black">Rabbit</h5>
                         <p class="sora text-black">2 items</p>
@@ -174,15 +170,15 @@
         </section>
 
         <!-- pet products -->
-        <section class="bg-bg-color1 mb-12 lg:mb-32 p-5 md:p-0">
+        <section class="bg-bg-color1 mb-12 lg:mb-32 p-6 md:p-0">
             <div class="md:container mx-auto pb-0 lg:pb-36">
-                <h3 class=" text-2xl  md:text-4xl adlam-display pt-16 lg:pt-36  mb-12">Browse By Categories</h3>
+                <h3 class=" text-2xl  md:text-4xl adlam-display pt-16 lg:pt-36  mb-12">Trending Pet Products</h3>
 
                 <!-- products cards  -->
                 <div class="flex flex-col lg:flex-row gap-6">
-                    <!-- pet cards -->
+                    <!-- pet cards 1-->
                     <div
-                        class="bg-bg-color2 rounded-xl px-8 py-10 space-y-4 relative md:w-[400px] bg-[url(c1-assets/cute-pet-small.png)] bg-no-repeat bg-right-bottom h-[400px]">
+                        class="bg-bg-color2 rounded-xl px-8 py-10 space-y-4 relative md:w-[400px] bg-[url(c1-assets/cute-pet-small.png)] bg-no-repeat bg-right-bottom h-[400px] duration-[0.5s] hover:scale-[1.02] hover:shadow-lg">
                         <h3 class="text-xl md:text-3xl font-extrabold">T-Shirt For Dogs</h3>
                         <p class="text-stone-800 w-64">Discover a world of treats, toys, and essentials handpicked for
                         </p>
@@ -193,13 +189,14 @@
 
                     </div>
 
+                    <!-- pet cards 2 -->
                     <div class="grid grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-6 flex-1">
                         <!-- card 1 -->
                         <div
-                            class="flex justify-center items-center gap-4 bg-white rounded-lg border border-gray-100 p-4">
+                            class="flex justify-center items-center gap-4 bg-white rounded-lg border border-gray-100 p-2 md:p-4 duration-[0.5s] hover:scale-[1.02] hover:shadow-lg">
                             <img src="c1-assets/dog-cartoon.png" alt="" class="bg-bg-color1 p-2 md:p-[19px] rounded-lg">
                             <div class="sora">
-                                <i class="fa-solid fa-star text-yellow-500 mr-2"></i>
+                                <i class="fa-solid fa-star text-yellow-400 md:mr-2"></i>
                                 <p class="inline ">4.5</p>
                                 <h5 class="text-[#111111] md:text-xl font-medium">Pet Bed</h5>
                                 <p class="font-medium">$39.99</p>
@@ -207,7 +204,7 @@
                         </div>
                         <!-- card 2 -->
                         <div
-                            class="flex justify-center items-center gap-4 bg-white rounded-lg border border-gray-100 p-4">
+                            class="flex justify-center items-center gap-4 bg-white rounded-lg border border-gray-100  p-2 md:p-4 duration-[0.5s] hover:scale-[1.02] hover:shadow-lg">
                             <img src="c1-assets/fish-cartoon.png" alt=""
                                 class="bg-bg-color1 p-2 md:p-[19px] rounded-lg">
                             <div class="sora">
@@ -219,7 +216,7 @@
                         </div>
                         <!-- card 3 -->
                         <div
-                            class="flex justify-center items-center gap-4 bg-white rounded-lg border border-gray-100 p-4">
+                            class="flex justify-center items-center gap-4 bg-white rounded-lg border border-gray-100  p-2 md:p-4 duration-[0.5s] hover:scale-[1.02] hover:shadow-lg">
                             <img src="c1-assets/bird-cartoon.png" alt=""
                                 class="bg-bg-color1 p-2 md:p-[19px] rounded-lg">
                             <div class="sora">
@@ -231,7 +228,7 @@
                         </div>
                         <!-- card 4 -->
                         <div
-                            class="flex justify-center items-center gap-4 bg-white rounded-lg border border-gray-100 p-4">
+                            class="flex justify-center items-center gap-4 bg-white rounded-lg border border-gray-100  p-2 md:p-4 duration-[0.5s] hover:scale-[1.02] hover:shadow-lg">
                             <img src="c1-assets/rabbit-cartoon.png" alt=""
                                 class="bg-bg-color1 p-2 md:p-[19px] rounded-lg">
                             <div class="sora">
@@ -243,7 +240,7 @@
                         </div>
                         <!-- card 5 -->
                         <div
-                            class="flex justify-center items-center gap-4 bg-white rounded-lg border border-gray-100 p-4">
+                            class="flex justify-center items-center gap-4 bg-white rounded-lg border border-gray-100  p-2 md:p-4 duration-[0.5s] hover:scale-[1.02] hover:shadow-lg">
                             <img src="c1-assets/bird-cartoon.png" alt=""
                                 class="bg-bg-color1 p-2 md:p-[19px] rounded-lg">
                             <div class="sora">
@@ -255,7 +252,7 @@
                         </div>
                         <!-- card 6 -->
                         <div
-                            class="flex justify-center items-center gap-4 bg-white rounded-lg border border-gray-100 p-4">
+                            class="flex justify-center items-center gap-4 bg-white rounded-lg border border-gray-100 p-2 md:p-4 duration-[0.5s] hover:scale-[1.02] hover:shadow-lg">
                             <img src="c1-assets/pet-couch.png" alt="" class="bg-bg-color1 p-2 md:p-[19px] rounded-lg">
                             <div class="sora">
                                 <i class="fa-solid fa-star text-yellow-500 mr-2"></i>
@@ -266,7 +263,7 @@
                         </div>
                         <!-- card 7 -->
                         <div
-                            class="flex justify-center items-center gap-4 bg-white rounded-lg border border-gray-100 p-4">
+                            class="flex justify-center items-center gap-4 bg-white rounded-lg border border-gray-100  p-2 md:p-4 duration-[0.5s] hover:scale-[1.02] hover:shadow-lg">
                             <img src="c1-assets/fish-cartoon.png" alt=""
                                 class="bg-bg-color1 p-2 md:p-[19px] rounded-lg">
                             <div class="sora">
@@ -278,7 +275,7 @@
                         </div>
                         <!-- card 8 -->
                         <div
-                            class="flex justify-center items-center gap-4 bg-white rounded-lg border border-gray-100 p-4">
+                            class="flex justify-center items-center gap-4 bg-white rounded-lg border border-gray-100  p-2 md:p-4 duration-[0.5s] hover:scale-[1.02] hover:shadow-lg">
                             <img src="c1-assets/pet-couch.png" alt="" class="bg-bg-color1 p-2 md:p-[19px] rounded-lg">
                             <div class="sora">
                                 <i class="fa-solid fa-star text-yellow-500 mr-2"></i>
@@ -289,7 +286,7 @@
                         </div>
                         <!-- card 9 -->
                         <div
-                            class="flex justify-center items-center gap-4 bg-white rounded-lg border border-gray-100 p-4 invisible lg:visible">
+                            class="flex justify-center items-center gap-4 bg-white rounded-lg border border-gray-100 invisible lg:visible p-2 md:p-4 duration-[0.5s] hover:scale-[1.02] hover:shadow-lg">
                             <img src="c1-assets/rabbit-cartoon.png" alt=""
                                 class="bg-bg-color1 p-2 md:p-[19px] rounded-lg">
                             <div class="sora">
@@ -305,14 +302,19 @@
 
         </section>
 
+        <!-- pet food -->
+         <section class="mb-12 lg:mb-32">
+            <img src="c1-assets/core-food.png" alt="">
+         </section>
+
         <!-- low price -->
-        <section class=" p-5 md:p-0 md:container mx-auto ">
+        <section class=" p-7 md:p-0 md:container mx-auto ">
             <h3 class=" text-2xl  md:text-4xl adlam-display  mb-12 text-[#111111]">Everyday low Price</h3>
             <!-- low-price container -->
             <div class="flex flex-col lg:flex-row gap-6 ">
                 <!-- container 1 -->
                 <div
-                    class="flex justify-center items-center gap-6 bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] flex-1 rounded-xl relative">
+                    class="flex justify-center items-center gap-6 bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] flex-1 rounded-xl relative duration-[0.5s] hover:scale-[1.05] hover:shadow-lg">
                     <!-- context -->
                     <div class="space-y-3 pl-10 md:pl-12 lg:pl-20 w-[350px] lg:w-[400px]">
                         <p class="md:text-xl sora invisible md:visible">Under Price
@@ -331,7 +333,7 @@
                     </div>
                 </div>
                 <!-- container 2 -->
-                <div class="flex adlam-display bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A]  rounded-xl pt-5 md:pt-14
+                <div class="flex adlam-display bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A]  rounded-xl pt-5 md:pt-14 duration-[0.5s] hover:scale-[1.05] hover:shadow-lg
                 lg:w-[512px] relative">
                     <div class="space-y-2  pl-10 md:pl-12 w-[350px] md:w-[350px]">
                         <h4 class="text-[#000000] text-xl md:text-2xl lg:text-[32px]">T-Shirt for Dogs</h4>
@@ -347,43 +349,50 @@
         </section>
 
         <!-- news section  -->
-        <section class="px-5 md:px-12 lg:px-20 md:container mx-auto bg-bg-color1 rounded-xl relative -bottom-12  md:-bottom-60">
+        <section
+            class="px-7 md:px-12 lg:px-20 md:container mx-auto bg-bg-color1 rounded-xl relative -bottom-12  md:-bottom-56">
             <!-- container -->
-            <div class="flex flex-col lg:flex-row justify-center items-center gap-10 lg:gap-[135px] py-5 md:py-10 text-center lg:text-left">
+            <div
+                class="flex flex-col lg:flex-row justify-center items-center gap-10 lg:gap-[135px] py-5 md:py-10 text-center lg:text-left ">
                 <!-- image -->
                 <div>
                     <img src="c1-assets/cute-pet-mid.png" alt="" class="">
                 </div>
                 <!-- context  -->
-                 <div class="space-y-5">
+                <div class="space-y-5">
                     <h3 class="adlam-display text-[#111111] text-2xl lg:text-4xl">Get Pawsome News!</h3>
                     <p class="text-[#111111] sora text-sm
                      md:text-xl lg:pb-6 ">Exclusive training tips, ticks, product deals and more.</p>
-                    <input type="text" placeholder="Enter email...." class="bg-white p-4 w-[400px] md:w-[470px] block sora">
-                    <button class="btn bg-primary-color md:text-xl px-7 text-stone-700 hover:bg-transparent hover:border-primary-color sora  ">Subscribe</button>
-                 </div>
+                    <input type="text" placeholder="Enter email...."
+                        class="bg-white p-4 w-[350px] md:w-[470px] block sora">
+                    <button
+                        class="btn bg-primary-color md:text-xl px-7 text-stone-700 hover:bg-transparent hover:border-primary-color sora  ">Subscribe</button>
+                </div>
             </div>
         </section>
     </main>
     <!-- footer -->
     <footer class="bg-bg-color2">
-        <div class="grid grid-cols-1 lg:grid-cols-3 items-end mx-auto md:container gap-6 lg:gap-40 p-5 md:p-0 pt-36 md:pt-96 pb-14 lg:pb-36">
+        <div
+            class="grid grid-cols-1 lg:grid-cols-3 items-end mx-auto md:container gap-6 lg:gap-40 p-5 md:p-0 pt-36 md:pt-96 pb-14 lg:pb-36">
             <!-- container 1 -->
-             <div class="sora space-y-2 lg:space-y-6">
+            <div class="sora space-y-2 lg:space-y-6">
                 <img src="c1-assets/logo-footer.png " alt="" class=" inline mr-3">
-                <h4 class=" text-xl lg:text-[26px] text-[#111111] inline">Browse<span class="text-primary-color ">4</span>Pets</h4>
-                <p class="lg:text-xl text-[#111111e3]">Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
-             </div>
+                <h4 class=" text-xl lg:text-[26px] text-[#111111] inline">Browse<span
+                        class="text-primary-color ">4</span>Pets</h4>
+                <p class="lg:text-xl text-[#111111e3]">Discover a world of treats, toys, and essentials handpicked for
+                    your furry friends</p>
+            </div>
 
-             <!-- container 2 -->
-              <div class="flex flex-col lg:text-xl lg:space-y-8">
+            <!-- container 2 -->
+            <div class="flex flex-col lg:text-xl lg:space-y-8">
                 <a class="link link-hover">Find a pet</a>
                 <a class="link link-hover">Breeds</a>
                 <a class="link link-hover">Contact us</a>
-              </div>
+            </div>
 
-              <!-- container 3 -->
-               <div class="space-y-2">
+            <!-- container 3 -->
+            <div class="space-y-2">
                 <p class="sora md:font-medium text-[#111111]">Follow Us</p>
                 <div class="flex gap-6 lg::gap-[30px] lg:text-xl">
                     <i class="fa-brands fa-facebook"></i>
@@ -391,7 +400,7 @@
                     <i class="fa-brands fa-linkedin"></i>
                     <i class="fa-brands fa-youtube"></i>
                 </div>
-               </div>
+            </div>
         </div>
     </footer>
 </body>
